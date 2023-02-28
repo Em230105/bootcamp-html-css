@@ -1,0 +1,304 @@
+<html>
+ <head>
+   <title>Bootcamp for HTML and CSS</title>
+
+ </head>
+
+ <body>
+    <div>
+     HTML is fun and exciting!
+    </div>
+    <div>
+      This is a block element.
+    </div>
+
+    <span>
+      This is an inline element.
+    </span>
+    <span>
+      This is the 2nd inline element.
+    </span>
+
+    <p class="paragraph" text-align="right">
+       My 1st Paragraph.
+    </p>
+
+       <p id="other-paragraph">
+        My 2nd Paragraph.
+       </p>
+
+       <h1>
+          Heading 1 
+       </h1>
+       <h2>
+         Heading 2
+       </h2>
+       <h3>
+        Heading 3
+       </h3>
+       <h4>
+        Heading 4
+       </h4>
+       <h5>
+        heading 5
+       </h5>
+       <h6>
+        Heading 6
+       </h6>
+
+       <P>
+         This is a paragraph
+       </P>
+
+         <span>
+          Span1
+         </span>
+         <br>
+         <span>
+        Span2
+         </span>
+        <br>
+       
+       <span>
+        Span3
+       </span>
+       <hr>
+       <span>
+        Span4
+       </span>
+       <hr>
+
+       <a href="about.html">
+          About Us Page
+       </a>
+
+       <br>
+
+       <a href="contact.html">
+          Contact Us Page
+       </a>
+
+       <br>
+
+       <a href="product.html">
+        Our Product Page
+       </a>
+
+       <a href="Gallery.html">
+        Our Gallery Page
+       </a>
+
+      <ol>
+         <li>Banana</li>
+         <li>Chocolate</li>
+         <li>Milk</li>
+      </ol>
+
+      <UL>
+         <li>Dog</li>
+         <li>cat</li>
+          <li>Parrot</li>
+      </UL>
+
+      <ul>
+         <li>
+          Products
+          <ul>
+             <li>Computer Mpnitor</li>
+             <li>Laptop</li>
+             <li>Mouse</li>
+          </ul>
+
+         </li>
+         <li>Gallery</li>
+
+         <li>
+          Contact
+          <ol>
+             <li>
+              Email:email@email.com
+              <ul>
+                <li>another@email.com</li>
+                <li>anotehr2@email.com</li>
+              </ul>
+            </li>
+             <li>Phone:09091234567</li>
+             <li>Facebook:@username</li>
+          </ol>
+        </li>
+      </ul>
+      
+      <img src="dog.jpg" width="300px"  height="300px" alt="This is my first image">
+      
+      <br>
+
+       <table border="1">
+         <thead >
+          <theader>
+             <td>Name </td> 
+            <td>Email Adress</td>
+             <td colspan="2"> Phone Number and country</td>
+            
+          </theader>
+
+         </thead>
+           
+         <tbody>
+           <tr >
+             <td rowspan="3">Ero Aguilar</td>
+             <td>eroaguilar@email.com</td>
+             <td>0901234567</td>
+             <td>philipines</td>
+
+           </tr>
+           <tr>
+             <td rowspan="2">Fumika@email.com </td>
+             <td>09097654321</td>
+             <td>japan</td>
+           </tr>
+
+           <tr>
+             <td>090123645</td>
+             <td>japan</td>
+           </tr>
+           
+         </tbody>
+
+       </table>
+
+       <hr>
+
+       <form action="save.html" method="post" required>
+         <lable for="fullname">
+           Email Adress:
+         </lable>
+
+         <input type="text" name="fullname" id="fullname" required>
+
+         <br>
+
+         <lable for="password">
+           password
+         </lable>
+         <input type="password" name="password" id="password" min="6" max="10">
+
+         <br>
+
+         <lable for="age">
+           Age:
+         </lable>
+         <input type="number" name="age" id="age" >
+
+         <br>
+
+         <lable for="date">
+           Date:
+         </lable>
+         <input type="date" name="date" id="date">
+
+         <br>
+
+         <lable for="email">
+          Email Adress:
+         </lable>
+         <input type="email" name="email" id="email">
+
+         <br>
+
+         <label for="comments">
+           comments:
+         </label>
+
+         <br>
+
+         <textarea name="comments" id="comments" cols="30" rows="10"></textarea>
+
+         <h5>
+            Tell us which one you like most:
+         </h5>
+         <input type="radio" name="pet" id="dog">
+         <lable for="dog">
+           Dog
+         </lable>
+
+         <input type="radio" name="pet" id="cat">
+         <lable for="cat">
+           Cat
+         </lable>
+
+         <input type="radio" name="pet" id="fish">
+         <lable for="fish">
+           Fish
+         </lable>
+
+         <br>
+
+         <p>
+           Which one is your favorite?
+         </p>
+         <input type="checkbox" name="food" id="ramen">
+         <label for="ramen">
+           Ramen
+         </label>
+
+         <input type="checkbox" name="food" id="sushi">
+         <label for="sushi">
+          Sushi
+         </label>
+
+         <input type="checkbox" name="food" id="curry">
+         <label for="curry">
+           Curry
+         </label>
+
+         <br>
+         
+         <lable for="device">
+           What is your device?
+
+         </lable>
+         <select name="device" id="device">
+           <option value="macbook">Mackbook</opthion>
+           <option Value="ipad" selected>ipad</option>
+           <option Value="iphone">iphone</option>
+        </select>
+
+        <br>
+        <br>
+
+        <label for="car">
+          What is your car?
+        </label>
+        <select name="car" id="car" multiple>
+           <option value="toyota">toyota</option>
+            <option Value="honda">honda</option>
+            <option Value="nissann">nissann</option>
+        </select>
+
+            <br>
+            <br>
+
+            <label for="profile-picture">
+               Please select your profile picture:
+            </label>
+            <input type="file" name="picture" id="picture" multiple>
+
+            <br>
+            <br>
+
+            <input type="submit" name="submit" value="submit this form">
+
+            <button type="submit" name="submit" >
+               Submit this from again
+            </button>
+
+
+        </select>
+      
+
+       </form>
+
+
+ </body>
+
+</html>
